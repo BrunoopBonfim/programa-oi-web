@@ -1,3 +1,8 @@
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using uninove.web.Models;
+
+
 public class AlunoController : Controller
 {
     public IActionResult Index()
@@ -16,3 +21,4 @@ public class AlunoController : Controller
         ViewBag.Semestre = "1º Semestre";
         return View();
     }
+}
